@@ -2,12 +2,12 @@ kind: !matrix
 
 axis:
 - kind: !text-axis
-  name: FOO
+  name: BOO
   valueString: Hello World
 
 - kind: !text-axis
-  name: BAR
-  valueString: World Mundo
+  name: FAR
+  valueString: Bonjour Monde
 
 builder:
   kind: !shell
