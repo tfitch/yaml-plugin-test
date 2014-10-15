@@ -1,14 +1,9 @@
-kind: !matrix
-
-axis:
-- kind: !text-axis
-  name: FOO
-  valueString: Hello World
-
-- kind: !text-axis
-  name: BAR
-  valueString: World Mundo
-
+kind: !freestyle
 builder:
   kind: !shell
-  command: echo $FOO $BAR
+  command: |
+    #!/bin/bash -e
+
+    echo foo
+    echo bar
+    echo baz
